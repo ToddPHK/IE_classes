@@ -1,0 +1,368 @@
+/* Small Studio Template 
+   I'm sorry for non-english variables,
+   but I think you'll manage */
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 0.8em;
+	background: #E7E7E7;
+}
+
+a {
+	text-decoration: none;
+	color: #B60400;
+}
+
+a:hover {
+	color: #808080;
+}
+
+a img {
+	border: 0;
+}
+
+h3 { font-size: 1.3em; line-height: 1.3em; margin: 0 0 5px; padding: 2px 0 0; border-bottom: 2px solid #eee; }
+
+.blue {
+	color: #286ea0;
+}
+#sadrzaj { padding: 9px 4px 0 2px; color: #303030; width: 800px; }
+
+#zaglavlje {
+	clear: both;
+	text-align: right;
+	padding: 20px 15px 0 0;
+	margin: 0 0 3px;
+	height: 40px;
+	border-bottom: 2px solid #eee;
+	background: #fff url(bb5.gif) repeat-x;
+	color: #808080;
+}
+
+#title {
+	float: left;
+	font-size: 14pt;
+	font-weight: bold;
+	padding: 0 0 0 10px;
+}
+
+#navigacija { clear: left; float: left; width: 180px; margin: 0 0 10px; padding: 0; font-size: 0.9em; }
+
+#navigacija ul {	
+	list-style: none;
+	width: 180px;
+	margin: 0 0 3px;
+	padding: 0;
+	font-size: 1.1em;
+	border-right: 2px solid #ccc;
+}	
+
+#navigacija li {
+	margin-bottom: 4px;
+	padding: 0 5px 0 10px;
+}
+
+#navigacija li a {
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: right;
+	height: 20px;
+	text-decoration: none;
+	color: #808080;
+	display: block;
+	padding: 6px 10px 0;
+	background: #fff;
+	border-bottom: 1px dotted #ccc;
+}	
+	
+#navigacija li a:hover { color: #000; background-color: #dfe4e7; }
+
+.lijevo { margin: 9px 0 10px; padding: 3px 10px 5px; width: 150px; color: #6b6b6b; font-size: 9px; line-height: 1.3em; }
+
+.lijevo a { line-height: 1.3em; text-decoration: underline; }
+
+.lijevo p { line-height: 1.3em; margin: 0; }
+
+#infobox {
+	border: 1px solid #ccc;
+	background: #f4f4f4;
+	padding: 3px;
+	margin-top: 5px;
+}
+
+.desna_rubrika {
+	float: right;
+	width: 273px;
+	margin: 0 0 10px 0;
+	padding: 5px 13px 20px 10px;
+	border-left: 1px solid #DDD;
+	color: #5D5D5D;
+	line-height: 1.5em;
+}
+
+.desna_rubrika p {
+	margin: 0px;
+	font-size: 90%;
+}
+
+.desna_rubrika a {
+	display: block;
+	
+	padding-bottom: 4px;
+	margin-bottom: 2px;
+	border-bottom: 1px dotted #ccc;
+}
+
+#pic {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(pic.jpg) repeat-x;
+	height: 146px;
+}
+
+#pic h2 {
+	margin: 0px;
+	padding: 15px 0 2px 5px;
+	font-size: 12pt;
+	color: #3A6794;
+}
+
+#pic p {
+	margin: 0;
+	padding: 0 0 0 5px;
+	color: #5488BC;
+	width: 260px;
+}
+
+.lijeva_rubrika { color: #454444; padding: 5px 10px; line-height: 1.6em; text-align: left; margin-top: 0; margin-bottom: 20px; margin-left: 180px; border-left: 2px solid #eee; }
+
+.lijeva_rubrika a, #lijeva_rubrika a:visited {
+	text-decoration: underline;	
+}
+
+.lijeva_rubrika p {
+	padding: 0;
+	margin: 0;
+}
+
+#downbox {
+	margin: 15px 10px 15px 10px;
+	border: 1px solid #819CD7;
+	background: #CDE1F9;
+}
+
+#downbox p {
+	padding: 6px;
+	margin: 0;
+}
+
+
+#footer {
+	clear: both;
+	color: #808080;
+	background: #FFF;
+	font-size: 0.8em;
+	text-align: right;
+	padding: 9px 10px 9px 0;
+	margin: 10px 5px 10px 5px;
+	border: 1px solid #ccc;
+	
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #3A6794;
+}
+
+#footer a:hover {
+	color: #000;
+}
+#bg0 { 
+	width: 850px;
+	margin: 0 auto;
+	height: 600px;
+	padding: 6px 10px 0;
+	background: url(bg0.gif) no-repeat;
+}
+#bg { 
+	width: 850px;
+	margin: 0 auto;
+	padding: 6px 10px 0;
+	background: url(bg.gif) no-repeat;
+}
+#bg1 { 
+	width: 850px;
+	margin: 0 auto;
+	height: 1200px;
+	padding: 6px 10px 0;
+	background: url(bg1.gif) no-repeat;
+}
+#bg2 { 
+	width: 850px;
+	margin: 0 auto;
+	height: 1500px;
+	padding: 6px 10px 0;
+	background: url(bg2.gif) no-repeat;
+}
+#bg3 { 
+	width: 850px;
+	margin: 0 auto;
+	height: 1800px;
+	padding: 6px 10px 0;
+	background: url(bg3.gif) no-repeat;
+}
+#bg4 { 
+	width: 850px;
+	margin: 0 auto;
+	height: 2300px;
+	padding: 6px 10px 0;
+	background: url(bg4.gif) no-repeat;
+}
+#picjj {
+	margin:  0 0 0 180px;
+	padding: 0 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(kechengjianjie.gif) repeat-x;
+	height: 146px;
+}
+#picap {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(jiaoxueanpai.gif) repeat-x;
+	height: 146px;
+}
+#pic01 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(001.gif) repeat-x;
+	height: 146px;
+}
+#pic02 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(002.gif) repeat-x;
+	height: 146px;
+}
+#pic03 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(003.gif) repeat-x;
+	height: 146px;
+}
+#pic04 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(004.gif) repeat-x;
+	height: 146px;
+}
+#pic05 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(005.gif) repeat-x;
+	height: 146px;
+}
+#pic06 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(006.gif) repeat-x;
+	height: 146px;
+}
+#pic07 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(007.gif) repeat-x;
+	height: 146px;
+}
+#pic08 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(008.gif) repeat-x;
+	height: 146px;
+}
+#pic09 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(009.gif) repeat-x;
+	height: 146px;
+}
+#pic10 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(010.gif) repeat-x;
+	height: 146px;
+}
+#pic11 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(011.gif) repeat-x;
+	height: 146px;
+}
+#pic12 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(012.gif) repeat-x;
+	height: 146px;
+}
+#pic13 {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(013.gif) repeat-x;
+	height: 146px;
+}
+#picys {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(pic.jpg) repeat-x;
+	height: 146px;
+}
+#picgn {
+	margin:  0 0 5px 155px;
+	padding: 0px 10px 5px 6px;
+	line-height: 1.4em;
+	background: url(pic.jpg) repeat-x;
+	height: 146px;
+}
+#bg6 { 
+	width: 850px;
+	margin: 0 auto;
+	height: 4000px;
+	padding: 6px 10px 0;
+	background: url(bg6.gif) no-repeat;
+}
+#bg7 { 
+	width: 850px;
+	margin: 0 auto;
+	height: 5000px;
+	padding: 6px 10px 0;
+	background: url(bg7.gif) no-repeat;
+}
+#bg5 { 
+	width: 850px;
+	margin: 0 auto;
+	height: 3000px;
+	padding: 6px 10px 0;
+	background: url(bg5.gif) no-repeat;
+}
+#picxx { margin:  0 0 5px 155px; padding: 0 10px 5px 6px; line-height: 1.4em; background-image: url(kechengxuexi.gif); background-position: 0 0; height: 146px; }
+#picdg { margin:  0 0 5px 155px; padding: 0 10px 5px 6px; line-height: 1.4em; background-image: url(jiaoxuedagang.gif); background-position: 0 0; height: 146px; }
+#picgn { margin:  0 0 5px 155px; padding: 0 10px 5px 6px; line-height: 1.4em; background-image: url(jibengainian.gif); background-position: 0 0; height: 146px; }
+#picys { margin:  0 0 5px 155px; padding: 0 10px 5px 6px; line-height: 1.4em; background-image: url(ketangyanshi.gif); background-position: 0 0; height: 146px; }
+#pic14 { margin:  0 0 0 180px; padding: 0 10px 5px 6px; line-height: 1.4em; background-color: transparent; background-image: url(monst.gif); height: 146px; }

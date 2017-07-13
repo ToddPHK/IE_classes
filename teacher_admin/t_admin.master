@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="t_admin.master.cs" Inherits="IE_Class.teacher_admin.t_admin" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link rel="stylesheet" href="css/admin.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <table style="border:none; width:100%;">
+        <tr>
+            <td style="width:15%;height:800px; vertical-align:top; background-color:#D1D1D1; overflow:scroll;">
+                <ul class="List1">
+                    <li><a href="Default.aspx"> 管理首页</a></li>
+                    <li>课程管理
+                        <ul class="List2">
+                            <li><a href="class_list.aspx"> 查看课程</a></li>
+                            <li><a href="class_add.aspx"> 添加课程</a></li>
+                            <li><a href="class_teacher.aspx">课程教师管理</a></li>
+                        </ul>
+                    </li>
+                    <li> 教师管理
+                        <ul class="List2">
+                            <li><a href="teacherlist.aspx">教师列表</a></li>
+                            <li><a href="teacher_add.aspx">添加教师</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li>学生管理
+                        <ul class="List2">
+                            <li><a href="studentlist.aspx">学生列表</a></li>
+                            <li><a href="student_add.aspx">添加学生</a></li>
+                            <li><a href="student_delete.aspx">删除学生</a></li>
+                        </ul>
+                    </li>
+                    <li>作业管理
+                        <ul class="List2">
+                            <li><a href="homework_add.aspx">添加作业项目</a></li>
+                            <li><a href="homework_add.aspx">查看作业项目</a></li>
+                            <li><a href="homework_download.aspx">作业下载</a></li>
+                        </ul>
+                    </li>
+                    <li>上传文件管理
+                        <ul class="List2">
+                            <li><a href="file_upload.aspx">上传课程资料</a></li>
+                            <li><a href="file_list.aspx">文件列表</a></li>
+                        </ul>
+                    </li>
+
+                    <li>新闻管理
+                        <ul class="List2">
+                            <li><a href="news_list.aspx">新闻列表</a></li>
+                            <li><a href="news_add.aspx">添加新闻</a></li>
+                        </ul>
+                    </li>
+
+                    <li>功能管理
+                        <ul class="List2">
+                            <li><a href="function_add.aspx">添加自定义功能</a></li>
+                            <li><a href="#">添加模块功能</a></li>
+                            <li><a href="#">功能列表</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </td>
+            <td style="width:85%; height:800px; vertical-align:top; text-align:center;margin:0px auto;overflow:scroll;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+</asp:Content>

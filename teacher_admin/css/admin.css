@@ -1,0 +1,112 @@
+﻿body {
+}
+
+ul.List1{
+    font-size:20px;
+}
+
+.List1 li{
+    margin:20px;
+    margin-left:40px;
+}
+
+.List1 a:link{
+    color:black;
+}
+.List1 a:visited{
+    color:black;
+}
+.List1 a:hover{
+    color:#FFF;
+	background:#00B895;
+}
+ul.List2{
+    font-size:18px;
+    margin-left:15px;
+}
+
+.List2 li{
+    margin:5px;
+    margin-left:13px;
+}
+
+.pages { color: #999; width:auto; }
+.pages a, .pages .cpb { text-decoration:none;float: left; padding: 0 5px; border: 1px solid #ddd;background: #ffffff;margin:0 2px; font-size:18px; color:#000;}
+.pages a:hover { background-color: #E61636; color:#fff;border:1px solid #E61636; text-decoration:none;}
+.pages .cpb { font-weight: bold; color: #fff; background: #E61636; border:1px solid #E61636;}
+
+div.GridViewFooter{
+    padding-left:40%;
+    margin:0px auto; 
+    width:100%;
+    text-align:center;       
+}
+
+.Content h3{
+    font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	color:#323A45;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0.5em 0 0.5em 0;
+}
+
+.Content h4{
+    font-family: Helvetica, Tahoma, Arial, STXihei, SimSun, Heiti,sans-serif;
+    font-size:24px;
+}
+
+.Content p{
+    font-family: Helvetica, Tahoma, Arial, STXihei, SimSun, Heiti,sans-serif;
+    font-size:1em;
+    line-height:1.5;
+    text-align:center;
+}
+
+.Content table{
+    margin:10px auto;
+    width:450px;
+}
+
+.Content tr{
+    height:50px;
+    margin-bottom:15px;
+}
+
+.Content td{
+    font-size:1.2em;
+    font-family: 'Roboto', sans-serif;
+    width:150px;
+}
+
+#img1{
+    width:367px;
+    height:150px;
+}
+.Content span{
+    margin-left:30px;
+    margin-left:30px;    
+}
+
+
+.intro{
+    list-style-image:url('../../image/list_image.png');
+    list-style-position:inside;
+}
+.introli{
+    padding:10px;
+    font-family: Helvetica, Tahoma, Arial, STXihei, SimSun, Heiti,sans-serif;
+}
+
+.introli a:link{
+    color:black;
+}
+
+.introli a:visited{
+    color:black;
+}
+
+.introli a:hover{
+    color:#FFF;
+	background:#00B895;
+}

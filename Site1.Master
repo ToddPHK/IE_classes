@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="IE_Class.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+    <link rel="stylesheet" href="css/responsiveslides.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!---start-header---->
+        <div class="header">
+            <div class="wrap">
+                <div class="logo"> 
+                    <a href="/Default.aspx"><img src="/image/logo.png" title="logo" /></a> 
+                </div>
+                <div class="top-nav">
+                    <ul>
+                        <li id="list1" style="font-weight:bold;color:white;"><a href="/Default.aspx" >首页</a></li>
+                        <li id="list2" style="font-weight:bold;color:white;"><a href="/Login.aspx" >用户登陆</a></li>
+                        <li id="list4" style="font-weight:bold;color:white;"><a href="/UserInfo.aspx">我的信息</a></li>
+                        <li id="list5" style="font-weight:bold;color:white;"><a href="/teacher_admin/Default.aspx" > 课程管理</a></li>
+                    </ul>
+                </div>
+                <div class="clear"> </div>
+            </div>
+        </div>
+        <!---End-header---->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!---start-footer---->
+        <div class="footer">
+            <div class="wrap">
+                <div class="footer-grids">
+                    <div class="footer-grid">
+                        <h3>申明</h3>
+                        <p> 本课程网站供浙江大学机械工程学院工业工程专业学生使用，暂不开放注册</p>
+                    </div>
+                    <div class="footer-grid">
+                        <h3>友情链接（外网）</h3>
+                        <ul>
+                            <li><a href="http://www.zju.edu.cn/">浙江大学官网</a></li>
+                            <li><a href="http://me.zju.edu.cn/">浙江大学机械工程学院</a></li>
+                            <li><a href="http://ugrs.zju.edu.cn/">浙江大学本科生院</a></li>
+                            <li><a href="http://grs.zju.edu.cn/">浙江大学研究生院</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-grid">
+                        <h3>友情链接（内网）</h3>
+                        <ul>
+                            <li><a href="http://www.zju.edu.cn/zhfw/">浙大综合服务网</a></li>
+                            <li><a href="http://me.zju.edu.cn:8087/office/index.php">机械学院办公网</a></li>
+                            <li><a href="http://grs.zju.edu.cn/grsinfo.html#aname">研究生教务管理系统</a></li>
+                            <li><a href="http://jwbinfosys.zju.edu.cn/default2.aspx">本科生教务管理系统</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-grid footer-lastgrid">
+                        <h3>联系我们</h3>
+                        <p>如有事务需要联系，请联系：</p>
+                        <div class="footer-grid-address">
+                            <p>Email:<a class="email-link" href="#">toddphk@zju.edu.cn</a></p>
+                        </div>
+                    </div>
+                    <div class="clear"> </div>
+                </div>
+            </div>
+        </div>
+
+        <!---End-footer---->
+        <div class="clear"> </div>
+        <div class="copy-right">
+            <p>ZJUMIE Copyright © 2016. All rights reserved.</p>
+        </div>
+    </form>
+</body>
+</html>
